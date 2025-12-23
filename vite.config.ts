@@ -1,0 +1,16 @@
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  // Для GitHub Pages лучше использовать './', так как мы используем HashRouter.
+  // Это гарантирует, что пути к картинкам и скриптам будут относительными.
+  base: './', 
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true
+  }
+});

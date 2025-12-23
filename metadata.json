@@ -1,0 +1,5 @@
+{
+  "name": "Copy of RAG Knowledge Base",
+  "description": "A modern AI-powered knowledge base management tool with document ingestion and a ChatGPT-style chat interface, connecting directly to n8n workflows.",
+  "requestFramePermissions": []
+}
